@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		A6639F9327FB1FE0009DE5FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6639F9227FB1FE0009DE5FD /* AppDelegate.swift */; };
 		A6639F9527FB1FE0009DE5FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6639F9427FB1FE0009DE5FD /* SceneDelegate.swift */; };
-		A6639F9727FB1FE0009DE5FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6639F9627FB1FE0009DE5FD /* ViewController.swift */; };
-		A6639F9A27FB1FE0009DE5FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6639F9827FB1FE0009DE5FD /* Main.storyboard */; };
+		A6639F9727FB1FE0009DE5FD /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6639F9627FB1FE0009DE5FD /* MusicViewController.swift */; };
+		A6639F9A27FB1FE0009DE5FD /* Music.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6639F9827FB1FE0009DE5FD /* Music.storyboard */; };
 		A6639F9C27FB1FE1009DE5FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6639F9B27FB1FE1009DE5FD /* Assets.xcassets */; };
 		A6639F9F27FB1FE1009DE5FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6639F9D27FB1FE1009DE5FD /* LaunchScreen.storyboard */; };
 		A6639FAA27FB1FE1009DE5FD /* MyMusicPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6639FA927FB1FE1009DE5FD /* MyMusicPlayerTests.swift */; };
 		A6639FB427FB1FE1009DE5FD /* MyMusicPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6639FB327FB1FE1009DE5FD /* MyMusicPlayerUITests.swift */; };
 		A6639FB627FB1FE1009DE5FD /* MyMusicPlayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6639FB527FB1FE1009DE5FD /* MyMusicPlayerUITestsLaunchTests.swift */; };
+		A6639FCD27FBDE07009DE5FD /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6639FCC27FBDE07009DE5FD /* Music.swift */; };
+		A6639FD027FBDE8F009DE5FD /* MusicSeeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6639FCF27FBDE8F009DE5FD /* MusicSeeder.swift */; };
+		A6639FDE27FC22D2009DE5FD /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6639FDD27FC22D2009DE5FD /* music.mp3 */; };
+		A6639FE227FC2349009DE5FD /* hati-hati-di-jalan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6639FE127FC2349009DE5FD /* hati-hati-di-jalan.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +43,8 @@
 		A6639F8F27FB1FE0009DE5FD /* MyMusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6639F9227FB1FE0009DE5FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6639F9427FB1FE0009DE5FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A6639F9627FB1FE0009DE5FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A6639F9927FB1FE0009DE5FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6639F9627FB1FE0009DE5FD /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		A6639F9927FB1FE0009DE5FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Music.storyboard; sourceTree = "<group>"; };
 		A6639F9B27FB1FE1009DE5FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6639F9E27FB1FE1009DE5FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6639FA027FB1FE1009DE5FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		A6639FAF27FB1FE1009DE5FD /* MyMusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6639FB327FB1FE1009DE5FD /* MyMusicPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMusicPlayerUITests.swift; sourceTree = "<group>"; };
 		A6639FB527FB1FE1009DE5FD /* MyMusicPlayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMusicPlayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A6639FCC27FBDE07009DE5FD /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		A6639FCF27FBDE8F009DE5FD /* MusicSeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSeeder.swift; sourceTree = "<group>"; };
+		A6639FDD27FC22D2009DE5FD /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = music.mp3; path = ../../../../../Downloads/music.mp3; sourceTree = "<group>"; };
+		A6639FE127FC2349009DE5FD /* hati-hati-di-jalan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "hati-hati-di-jalan.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +107,14 @@
 		A6639F9127FB1FE0009DE5FD /* MyMusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				A6639FCE27FBDE85009DE5FD /* Seeder */,
+				A6639FCB27FBDDFC009DE5FD /* Model */,
+				A6639FC827FBD5A4009DE5FD /* Audio */,
+				A6639FC227FB2011009DE5FD /* Storyboard */,
 				A6639F9227FB1FE0009DE5FD /* AppDelegate.swift */,
 				A6639F9427FB1FE0009DE5FD /* SceneDelegate.swift */,
-				A6639F9627FB1FE0009DE5FD /* ViewController.swift */,
-				A6639F9827FB1FE0009DE5FD /* Main.storyboard */,
+				A6639F9627FB1FE0009DE5FD /* MusicViewController.swift */,
 				A6639F9B27FB1FE1009DE5FD /* Assets.xcassets */,
-				A6639F9D27FB1FE1009DE5FD /* LaunchScreen.storyboard */,
 				A6639FA027FB1FE1009DE5FD /* Info.plist */,
 			);
 			path = MyMusicPlayer;
@@ -125,6 +135,40 @@
 				A6639FB527FB1FE1009DE5FD /* MyMusicPlayerUITestsLaunchTests.swift */,
 			);
 			path = MyMusicPlayerUITests;
+			sourceTree = "<group>";
+		};
+		A6639FC227FB2011009DE5FD /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A6639F9D27FB1FE1009DE5FD /* LaunchScreen.storyboard */,
+				A6639F9827FB1FE0009DE5FD /* Music.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		A6639FC827FBD5A4009DE5FD /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				A6639FDD27FC22D2009DE5FD /* music.mp3 */,
+				A6639FE127FC2349009DE5FD /* hati-hati-di-jalan.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		A6639FCB27FBDDFC009DE5FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A6639FCC27FBDE07009DE5FD /* Music.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A6639FCE27FBDE85009DE5FD /* Seeder */ = {
+			isa = PBXGroup;
+			children = (
+				A6639FCF27FBDE8F009DE5FD /* MusicSeeder.swift */,
+			);
+			path = Seeder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +275,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6639FDE27FC22D2009DE5FD /* music.mp3 in Resources */,
 				A6639F9F27FB1FE1009DE5FD /* LaunchScreen.storyboard in Resources */,
 				A6639F9C27FB1FE1009DE5FD /* Assets.xcassets in Resources */,
-				A6639F9A27FB1FE0009DE5FD /* Main.storyboard in Resources */,
+				A6639FE227FC2349009DE5FD /* hati-hati-di-jalan.mp3 in Resources */,
+				A6639F9A27FB1FE0009DE5FD /* Music.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +304,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6639F9727FB1FE0009DE5FD /* ViewController.swift in Sources */,
+				A6639FD027FBDE8F009DE5FD /* MusicSeeder.swift in Sources */,
+				A6639F9727FB1FE0009DE5FD /* MusicViewController.swift in Sources */,
 				A6639F9327FB1FE0009DE5FD /* AppDelegate.swift in Sources */,
 				A6639F9527FB1FE0009DE5FD /* SceneDelegate.swift in Sources */,
+				A6639FCD27FBDE07009DE5FD /* Music.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,12 +345,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A6639F9827FB1FE0009DE5FD /* Main.storyboard */ = {
+		A6639F9827FB1FE0009DE5FD /* Music.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A6639F9927FB1FE0009DE5FD /* Base */,
 			);
-			name = Main.storyboard;
+			name = Music.storyboard;
 			sourceTree = "<group>";
 		};
 		A6639F9D27FB1FE1009DE5FD /* LaunchScreen.storyboard */ = {
@@ -442,7 +490,8 @@
 				INFOPLIST_FILE = MyMusicPlayer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Music;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +519,8 @@
 				INFOPLIST_FILE = MyMusicPlayer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Music;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

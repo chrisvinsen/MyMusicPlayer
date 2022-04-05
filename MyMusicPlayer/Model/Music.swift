@@ -6,3 +6,21 @@
 //
 
 import Foundation
+import UIKit
+
+struct Music {
+    var image: UIImage?
+    var title: String?
+    var singer: String?
+    var lyrics: String?
+    var filename: String?
+    var filetype: String?
+    var startTime: Int
+    var endTime: Int
+    var isFavorite: Bool
+    
+    func formattedTime(time: Int) -> String {
+        return "\(String(format: "%02d", time / 60)):\(String(format: "%02d", time % 60))"
+    }
+}
+
